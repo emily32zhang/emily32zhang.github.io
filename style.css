@@ -1,0 +1,212 @@
+/* your css here */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+button{
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav button {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+nav button:hover {
+    background-color: #333;
+    border-radius: 4px;
+}
+
+nav button:hover a {
+    color: white;
+}
+
+h1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer button {
+    background: none;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+footer button:hover {
+    background-color: #333;
+    color: white;
+}
+
+footer button:hover a {
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Home Page Styles */
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: grid;
+    vertical-align: middle;
+}
+
+/* CV Page Styles */
+.cv-title {
+    display: grid;
+    justify-content: left;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cv-header {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.cv-section {
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    border-bottom: 2px solid #333;
+    margin-bottom: 1.5rem;
+}
+
+.cv-entry {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.cv-content {
+    grid-column: 1;
+}
+
+.cv-content h4 {
+    color: #666;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.cv-date {
+    grid-column: 2;
+    text-align: right;
+    padding-top: 0.5rem;
+}
+
+.cv-content ul {
+    margin-top: 0.5rem;
+    padding-left: 1.2rem;
+}
+
+/* Contact Page Styles */
+.contact-header {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 2rem 0;
+    margin-bottom: 2rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.required {
+    color: #ff0000;
+}
+
+.form-group input,
+.form-group textarea {
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-button {
+    background: none;
+    border: 1px solid #dee2e6;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #333;
+    color: white;
+}
